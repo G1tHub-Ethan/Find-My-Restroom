@@ -11,9 +11,10 @@
 		9FB905A724D92E830085FCA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB905A624D92E830085FCA5 /* SceneDelegate.swift */; };
 		9FB905A924D92E830085FCA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB905A824D92E830085FCA5 /* ViewController.swift */; };
 		9FB905AC24D92E830085FCA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB905AA24D92E830085FCA5 /* Main.storyboard */; };
-		9FB905AE24D92E840085FCA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB905AD24D92E840085FCA5 /* Assets.xcassets */; };
 		9FB905B124D92E840085FCA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB905AF24D92E840085FCA5 /* LaunchScreen.storyboard */; };
 		9FB905B924D9D3690085FCA5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB905B824D9D3690085FCA5 /* MapViewController.swift */; };
+		9FB905BF24D9F33B0085FCA5 /* flushing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FB905BE24D9F33B0085FCA5 /* flushing.mp3 */; };
+		9FB905C324D9F4360085FCA5 /* Assests.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB905C224D9F4360085FCA5 /* Assests.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +23,11 @@
 		9FB905A624D92E830085FCA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9FB905A824D92E830085FCA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9FB905AB24D92E830085FCA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9FB905AD24D92E840085FCA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FB905B024D92E840085FCA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FB905B224D92E840085FCA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FB905B824D9D3690085FCA5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9FB905BE24D9F33B0085FCA5 /* flushing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flushing.mp3; sourceTree = "<group>"; };
+		9FB905C224D9F4360085FCA5 /* Assests.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assests.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +65,10 @@
 				9FB905AA24D92E830085FCA5 /* Main.storyboard */,
 				9FB905A824D92E830085FCA5 /* ViewController.swift */,
 				9FB905B824D9D3690085FCA5 /* MapViewController.swift */,
-				9FB905AD24D92E840085FCA5 /* Assets.xcassets */,
+				9FB905C224D9F4360085FCA5 /* Assests.xcassets */,
 				9FB905AF24D92E840085FCA5 /* LaunchScreen.storyboard */,
 				9FB905B224D92E840085FCA5 /* Info.plist */,
+				9FB905BE24D9F33B0085FCA5 /* flushing.mp3 */,
 			);
 			path = "Find My Restroom";
 			sourceTree = "<group>";
@@ -129,7 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FB905B124D92E840085FCA5 /* LaunchScreen.storyboard in Resources */,
-				9FB905AE24D92E840085FCA5 /* Assets.xcassets in Resources */,
+				9FB905BF24D9F33B0085FCA5 /* flushing.mp3 in Resources */,
+				9FB905C324D9F4360085FCA5 /* Assests.xcassets in Resources */,
 				9FB905AC24D92E830085FCA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
