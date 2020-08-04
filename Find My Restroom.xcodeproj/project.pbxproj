@@ -13,6 +13,7 @@
 		9FB905AC24D92E830085FCA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB905AA24D92E830085FCA5 /* Main.storyboard */; };
 		9FB905AE24D92E840085FCA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB905AD24D92E840085FCA5 /* Assets.xcassets */; };
 		9FB905B124D92E840085FCA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB905AF24D92E840085FCA5 /* LaunchScreen.storyboard */; };
+		9FB905B924D9D3690085FCA5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB905B824D9D3690085FCA5 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9FB905AD24D92E840085FCA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FB905B024D92E840085FCA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FB905B224D92E840085FCA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FB905B824D9D3690085FCA5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				9FB905A424D92E830085FCA5 /* AppDelegate.swift */,
 				9FB905A624D92E830085FCA5 /* SceneDelegate.swift */,
-				9FB905A824D92E830085FCA5 /* ViewController.swift */,
 				9FB905AA24D92E830085FCA5 /* Main.storyboard */,
+				9FB905A824D92E830085FCA5 /* ViewController.swift */,
+				9FB905B824D9D3690085FCA5 /* MapViewController.swift */,
 				9FB905AD24D92E840085FCA5 /* Assets.xcassets */,
 				9FB905AF24D92E840085FCA5 /* LaunchScreen.storyboard */,
 				9FB905B224D92E840085FCA5 /* Info.plist */,
@@ -141,6 +144,7 @@
 				9FB905A924D92E830085FCA5 /* ViewController.swift in Sources */,
 				9FB905A524D92E830085FCA5 /* AppDelegate.swift in Sources */,
 				9FB905A724D92E830085FCA5 /* SceneDelegate.swift in Sources */,
+				9FB905B924D9D3690085FCA5 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
