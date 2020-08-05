@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     
     var audioPlayer = AVAudioPlayer()
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         let sound = Bundle.main.path(forResource: "flushing", ofType: "mp3")
