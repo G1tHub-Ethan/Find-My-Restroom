@@ -110,13 +110,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="4tm-BI-0aL">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="2P7-qJ-DaT"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="AAA-31-Dd3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="137.94642857142856"/>
+            <point key="canvasLocation" x="2868.115942028986" y="137.94642857142856"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="zBm-B4-pK6">
@@ -126,19 +124,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="eDM-hl-MBf">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="mF5-gj-Jh0">
+                                <rect key="frame" x="142" y="130" width="131" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="eDM-hl-MBf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="759"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="eDM-hl-MBf" firstAttribute="leading" secondItem="e7o-Q7-KAS" secondAttribute="leading" id="7zB-zv-tpf"/>
+                            <constraint firstItem="eDM-hl-MBf" firstAttribute="top" secondItem="e7o-Q7-KAS" secondAttribute="top" id="Emf-al-vg4"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="eDM-hl-MBf" secondAttribute="bottom" id="UuX-qR-f2M"/>
+                            <constraint firstItem="eDM-hl-MBf" firstAttribute="trailing" secondItem="e7o-Q7-KAS" secondAttribute="trailing" id="fNo-dR-lk8"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="e7o-Q7-KAS"/>
                     </view>
-                    <navigationItem key="navigationItem" id="jg1-4l-Oh5"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="CPf-Bn-NHN"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="mapView" destination="eDM-hl-MBf" id="Cc8-81-FLO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H5r-wJ-t2n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1786.9565217391305" y="137.94642857142856"/>
+            <point key="canvasLocation" x="3607.2463768115945" y="137.94642857142856"/>
         </scene>
     </scenes>
     <resources>
